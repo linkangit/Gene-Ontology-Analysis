@@ -1,4 +1,5 @@
 # GO Enrichment Analysis for RNA-seq DEGs
+Welcome! This repository contains a Python script that performs Gene Ontology (GO) enrichment analysis on a list of differentially expressed genes (DEGs). The approach leverages the [goatools](https://github.com/tanghaibao/goatools) library to identify significantly enriched GO terms, visualize the results, and summarize insights from your RNA-seq experiment. I have used differentially expressed genes from a previous [RNAseq analysis](https://github.com/linkangit/RNAseq-analysis-PyDESeq2) done on data obtained from one of my published articles [Dash et.al 2023](https://doi.org/10.1093/plphys/kiad465).
 
 ![GO_figure](results/output_0_21.png)
 
