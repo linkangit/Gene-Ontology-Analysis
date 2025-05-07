@@ -3,22 +3,6 @@ Welcome! This repository contains a Python script that performs Gene Ontology (G
 
 ![GO_figure](go_enrichment_plot.png)
 
-This document describes a Python script that performs Gene Ontology (GO) enrichment analysis on a set of differentially expressed genes (DEGs) from an RNA-seq experiment. The code uses the `goatools` library to identify and visualize GO terms that are overrepresented in the DEGs compared to a background gene set.
-
----
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Files and Inputs](#files-and-inputs)
-3. [Key Steps in the Script](#key-steps-in-the-script)
-4. [Why Perform GO Enrichment Analysis in RNA-seq?](#why-perform-go-enrichment-analysis-in-rna-seq)
-5. [Running the Script](#running-the-script)
-6. [Output and Visualization](#output-and-visualization)
-7. [Possible Extensions and Applications](#possible-extensions-and-applications)
-8. [Summary](#summary)
-
----
-
 ## Overview
 1. **Goal:** To identify which biological processes, molecular functions, or cellular components are significantly enriched in a set of DEGs from an Arabidopsis mutant vs. control study.  
 2. **Method:** Uses the `goatools` package to perform enrichment analysis against a background gene set, obtains statistically significant GO terms, and visualizes the top 20 terms in a scatter plot.
